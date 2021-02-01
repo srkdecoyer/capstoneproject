@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "gltrbdemo",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authgltrbdemod1d40d2c",
+      "Outputs.UserPoolId"
+    ]
+  }
+}

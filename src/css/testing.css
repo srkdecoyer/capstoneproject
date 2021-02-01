@@ -1,0 +1,94 @@
+.Testing {
+  text-align: center;
+}
+
+.Testing-logo {
+  height: 40vmin;
+}
+
+.Testing-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Testing-link {
+  color: #09d3ac;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /*margin: 50px 0 0;*/
+  text-align: center;
+  font-family: sans-serif;
+  background-color: #f6f8fa;
+}
+
+.autocomplete-wrapper {
+  width: 350px;
+  position: relative;
+  display: inline-block;
+}
+
+.autocomplete-wrapper > div {
+  display: inline !important;
+  width: 100%;
+}
+
+.autocomplete-wrapper input {
+  border: 1px solid #cecece;
+  padding: 3px 15px;
+  font-size: 14px;
+  width: 78%;
+  margin-left: 10px;
+}
+
+.autocomplete-wrapper input:focus {
+  border-color: #0f67ff;
+  box-shadow: none;
+  outline: none;
+}
+
+.autocomplete-wrapper .dropdown {
+  width: 78%;
+  padding: 0;
+  text-align: left;
+  max-height: 280px;
+  overflow: hidden;
+  overflow-y: auto;
+  position: absolute;
+  left: 19%;
+  background-color: #ffffff;
+  border: 1px solid #0f67ff;
+  border-top: none;
+}
+
+.autocomplete-wrapper .item {
+  display: block;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 5px;
+}
+
+.autocomplete-wrapper .item.selected-item {
+  background-color: #0069ff;
+  color: #fafbfc;
+}
+
+.autocomplete-wrapper .item:hover {
+  background-color: #0069ff;
+  color: #fafbfc;
+}
+
+.autocomplete-wrapper .dropdown {
+  width: 71%;
+  left: 23%;
+}
